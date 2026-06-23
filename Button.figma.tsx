@@ -3,7 +3,7 @@ import { Button } from "./Button";
 
 figma.connect(
   Button,
-  "COLLE_ICI_L_URL_DU_COMPOSANT_FIGMA",
+  "https://www.figma.com/design/Dty6BLOKwvt0ar1kMYEJWX/Core-Components-VF.1?node-id=2311-26545",
   {
     props: {
       children: figma.string("Label"),
@@ -13,11 +13,10 @@ figma.connect(
         Secondary: "secondary",
       }),
     },
-
     example: ({ children, disabled, variant }) => (
       <Button variant={variant} disabled={disabled}>
         {children}
       </Button>
     ),
-  },
+  }
 );
